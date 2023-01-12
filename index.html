@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukesoppgave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="changer">Presentasjon</h1>
+    <div id="btn">
+        <button onclick="changeBg()">Trykk her for en ny farge!</button>
+    </div>
+    <img src="portrett.png" />
+    <div id="maintext">
+        <p>Hei! Jeg heter Daniel, bor i Oslo, har studert språk og har også et stort hjerte for teknologi.</p>
+        <h3>Noen hobbyer:</h3>
+        <div id="list">
+            <ul>
+                <li>Brett- og kortspill (sjakk, bridge, backgammon)</li>
+                <li>Musikk (piano, gitar)</li>
+                <li>Koding (Python, C/C++)</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function changeBg(){
+            document.getElementById("changer").style.backgroundColor = "darkblue";
+        }
+    </script>
+</body>
+
+</html>
